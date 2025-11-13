@@ -53,13 +53,13 @@ const About = () => {
         </p>
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+      <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
         {/* Profile */}
-        <div className="md:col-span-7 relative w-full rounded-3xl p-[2px] bg-gradient-to-r from-purple-600/40 via-fuchsia-500/30 to-cyan-500/40 shadow-[0_0_40px_rgba(112,66,248,0.25)]">
-          <div className="relative w-full h-[360px] md:h-[440px] rounded-[22px] overflow-hidden bg-[#0b0f1a]">
-            <Image src="/SpaceWebsite.png" alt="Preview" fill className="object-cover" />
+        <div className="md:col-span-4 relative w-full max-w-[420px] mx-auto rounded-3xl p-[2px] bg-gradient-to-r from-purple-600/40 via-fuchsia-500/30 to-cyan-500/40 shadow-[0_0_40px_rgba(112,66,248,0.25)]">
+          <div className="relative w-full h-[220px] md:h-[300px] rounded-[22px] overflow-hidden bg-[#0b0f1a] border border-white/10">
+            <Image src="/fotoporto.jpg" alt="Preview" fill className="object-cover" />
           </div>
-          <div className="absolute -bottom-6 left-8">
+          <div className="absolute -bottom-6 left-6">
             <div className="px-5 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white shadow-[0_0_25px_rgba(59,130,246,0.5)]">
               Full Stack Dev
             </div>
@@ -67,7 +67,7 @@ const About = () => {
         </div>
 
         {/* Cards */}
-        <div className="md:col-span-5 flex flex-col gap-6">
+        <div className="md:col-span-8 flex flex-col gap-6">
           <div className="relative rounded-2xl p-[1px] bg-gradient-to-r from-fuchsia-600/30 to-purple-600/30">
             <div className="rounded-2xl p-6 bg-gradient-to-br from-[#0b0f1a] via-[#130b1f]/60 to-[#0e1730]/60 border border-white/5 hover:border-fuchsia-500/40 transition-colors">
             <div className="flex items-start gap-4">
@@ -77,7 +77,7 @@ const About = () => {
               <div>
                 <h3 className="text-white text-xl font-semibold">Developer Passionate</h3>
                 <p className="text-gray-300 mt-1">
-                  Saya Mohamad Arleyxa Syarif, seorang developer yang menghadirkan passion dalam setiap proyek. Percaya bahwa setiap kode adalah karya seni untuk menyelesaikan masalah nyata.
+                  Saya Mohamad Revan Fahriansyah, seorang developer yang menghadirkan passion dalam setiap proyek. Percaya bahwa setiap kode adalah karya seni untuk menyelesaikan masalah nyata.
                 </p>
               </div>
             </div>
@@ -93,7 +93,7 @@ const About = () => {
               <div>
                 <h3 className="text-white text-xl font-semibold">Visi Karir</h3>
                 <p className="text-gray-300 mt-1">
-                  Bercita-cita menjadi Fullstack Developer yang memimpin tim dengan dampak positif. Fokus mengasah skill dan terus belajar teknologi terbaru di industri.
+                  Bercita-cita menjadi Fullstack Developer yang dapat bekerja dalam tim dengan dampak positif. Fokus mengasah skill dan terus belajar teknologi terbaru di industri.
                 </p>
               </div>
             </div>
